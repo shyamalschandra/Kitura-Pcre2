@@ -1,4 +1,5 @@
 module pcre2 [system] {
+    header "common.h"
     header "/usr/local/include/pcre2.h"
     link "pcre2"
     export *
